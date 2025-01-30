@@ -31,7 +31,7 @@
             font-style: normal;
         }
 
-        .garamond{
+        .garamond {
             font-family: "EB Garamond", serif;
             font-optical-sizing: auto;
             font-weight: 400;
@@ -45,53 +45,64 @@
         <nav class="container mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1 <i class="fa-thin fa-greater-than"></i></a></li>
+                            <li>
+                                <a>Parent</a>
+
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
                     </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1 <i class="fa-thin fa-greater-than"></i></a></li>
-                      <li>
-                        <a>Parent</a>
-                        
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <div class="flex justify-center gap-0">
-                    <img class="w-full" src="images/logo.png" alt="">
-                    <h1 class="text-[#414040] text-4xl font-extrabold garamond">Justice</h1>
-                  </div>
+                    <div class="flex justify-center gap-0">
+                        <img class="w-full" src="images/logo.png" alt="">
+                        <h1 class="text-[#414040] text-4xl font-extrabold garamond hidden lg:block">Justice</h1>
+                    </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 poppins text-base">
-                    <li><a>Home</i></a></li>
-                    <li>
-                      <a href="">Services<i class="fa-solid fa-greater-than text-[#707070]"></i></a>
-                    </li>
-                    <li><a>Cases<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
-                    <li><a>Blog<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
-                    <li><a>Contact us<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1 poppins text-base">
+                        <li><a>Home</i></a></li>
+                        <li>
+                            <a href="">Services<i class="fa-solid fa-greater-than text-[#707070]"></i></a>
+                        </li>
+                        <li><a>Cases<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
+                        <li><a>Blog<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
+                        <li><a>Contact us<i class="fa-solid fa-greater-than text-[#707070]"></i></a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn py-7 bg-[#B68C5A] text-white text-xl font-semibold text-center ">Free Consultation</a>
+                    <a class="btn  bg-[#B68C5A] text-white text-xl font-semibold text-center  ">Free Consultation</a>
                 </div>
-              </div>
+            </div>
         </nav>
+        <!-- Banner -->
+        <section>
+            <div class="hero min-h-screen container mx-auto"
+                style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-screen-md">
+                        <h1 class="mb-5 text-7xl text-white font-extrabold garamond">We Provide Effective <br>Legal Solutions</h1>
+                        <p class="mb-5 text-white text-base font-normal">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                        </p>
+                        <div class="">
+                            <input class="text-black px-10 py-4 text-base font-normal rounded-lg" type="text" placeholder="Search Your Service">
+                            <button class="btn bg-[#B68C5A] px-10 py-4 border-none rounded-lg poppins text-white font-semibold ml-3">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
